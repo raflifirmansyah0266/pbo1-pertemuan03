@@ -5,9 +5,9 @@ public class IfElse {
         double totalbelanja = 53000;
         double uangdidompet = 25000;
 
-        if (uangdidompet<totalbelanja){
+        if (uangdidompet>totalbelanja){
             System.out.println("Uangnya Tidak Cukup, Ngutang dulu");
-        } else if (uangdidompet>totalbelanja) {
+        } else if (uangdidompet<totalbelanja) {
             double angsul = uangdidompet-totalbelanja;
             System.out.println("Uang cukup, angsul : "+angsul);
         }else{
